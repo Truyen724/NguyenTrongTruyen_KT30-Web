@@ -21,5 +21,8 @@ namespace Truyen.Models
         public string Author { get; set; } 
 
         public string CreatedAt { get; set; } 
+
+        // public Category Category { get; set; }
+        // public List<comment> comment { get; set; }
     }
 }
