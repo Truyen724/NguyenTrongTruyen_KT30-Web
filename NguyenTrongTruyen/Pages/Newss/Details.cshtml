@@ -19,9 +19,11 @@
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.News.ImageUrl)
+            
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.News.ImageUrl)
+        <img scr = "@Html.DisplayFor(model => model.News.ImageUrl)" height = 300>
+            
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.News.Content)
