@@ -1,19 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Truyen.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace NguyenTrongTruyen.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-    public IndexModel(ILogger<IndexModel> logger)
-    {
-        _logger = logger;
-    }
+        public IndexModel(NguyenTrongTruyen.Data.TintucContext context)
+        {
+            _context = context;
+        }
 
-    public void OnGet()
-    {
+        public IList<News> News { get;set; }
 
-    }
+        public async Task OnGetAsync()
+        {
+            News = await _context.Newss.ToListAsync();
+        }
 }
