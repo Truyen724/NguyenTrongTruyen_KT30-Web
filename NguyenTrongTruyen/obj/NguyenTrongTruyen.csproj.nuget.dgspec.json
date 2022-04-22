@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj": {}
+    "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj": {
+    "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
+        "projectUniqueName": "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
         "projectName": "NguyenTrongTruyen",
-        "projectPath": "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
+        "projectPath": "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
         "packagesPath": "C:\\Users\\PDH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\obj\\",
+        "outputPath": "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PDH\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d5Bm31Axb27qgWE40ClBFBPXDQEKlWG6dGoBbIQkX/65Lx1YCUwq1kgAzlnXbTVo90n5Z4gEBiTCaGwX8wIT9g==",
+  "dgSpecHash": "FpfTL1BGWWJxR+CQYsq+017/lIjeRoII5LuGqwnDdcpVpiJjnb1jc6ORu7NojG+hctFBi9FJ7H+Y0e8TtMxQOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PDH\\Desktop\\NguyenTrongTruyen-20220422T062055Z-001\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
+  "projectFilePath": "C:\\Users\\PDH\\Desktop\\KT30%\\NguyenTrongTruyen_KT30-Web\\NguyenTrongTruyen\\NguyenTrongTruyen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PDH\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PDH\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

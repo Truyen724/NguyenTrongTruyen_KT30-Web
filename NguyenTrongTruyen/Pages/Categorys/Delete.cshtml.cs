@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.Categorys
 {
     public class DeleteModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.CategoryContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public DeleteModel(NguyenTrongTruyen.Data.CategoryContext context)
+        public DeleteModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -29,7 +29,7 @@ namespace NguyenTrongTruyen.Pages.Categorys
                 return NotFound();
             }
 
-            Category = await _context.Category.FirstOrDefaultAsync(m => m.ID == id);
+            Category = await _context.Categorys.FirstOrDefaultAsync(m => m.ID == id);
 
             if (Category == null)
             {
@@ -45,11 +45,11 @@ namespace NguyenTrongTruyen.Pages.Categorys
                 return NotFound();
             }
 
-            Category = await _context.Category.FindAsync(id);
+            Category = await _context.Categorys.FindAsync(id);
 
             if (Category != null)
             {
-                _context.Category.Remove(Category);
+                _context.Categorys.Remove(Category);
                 await _context.SaveChangesAsync();
             }
 

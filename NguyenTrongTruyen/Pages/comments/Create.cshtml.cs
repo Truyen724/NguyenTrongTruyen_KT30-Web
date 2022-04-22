@@ -28,32 +28,32 @@ namespace NguyenTrongTruyen.Pages.comments
         public comment comment { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-        // public async Task<IActionResult> OnPostAsync()
-        // {
-        //     if (!ModelState.IsValid)
-        //     {
-        //         return Page();
-        //     }
-
-        //     _context.comment.Add(comment);
-        //     await _context.SaveChangesAsync();
-
-        //     return RedirectToPage("./Index");
-        // }
         public async Task<IActionResult> OnPostAsync()
         {
-            var emptycomment = new comment();
-
-            if (await TryUpdateModelAsync<comment>(
-                emptycomment,
-                "comment",   // Prefix for form value.
-                 s=>s.Author,s=>s.Content, s=>s.CreateAt))
+            if (!ModelState.IsValid)
             {
-                _context.comments.Add(emptycomment);
-                await _context.SaveChangesAsync();
-                return RedirectToPage("./Index");
+                return Page();
             }
-            return Page();
+
+            _context.comments.Add(comment);
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage("./Index");
         }
+        // public async Task<IActionResult> OnPostAsync()
+        // {
+        //     var emptycomment = new comment();
+
+        //     if (await TryUpdateModelAsync<comment>(
+        //         emptycomment,
+        //         "comment",   // Prefix for form value.
+        //          s=>s.Author,s=>s.Content, s=>s.CreateAt))
+        //     {
+        //         _context.comments.Add(emptycomment);
+        //         await _context.SaveChangesAsync();
+        //         return RedirectToPage("./Index");
+        //     }
+        //     return Page();
+        // }
     }
 }

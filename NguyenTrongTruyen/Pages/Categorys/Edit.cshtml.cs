@@ -13,9 +13,9 @@ namespace NguyenTrongTruyen.Pages.Categorys
 {
     public class EditModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.CategoryContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public EditModel(NguyenTrongTruyen.Data.CategoryContext context)
+        public EditModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -30,7 +30,7 @@ namespace NguyenTrongTruyen.Pages.Categorys
                 return NotFound();
             }
 
-            Category = await _context.Category.FirstOrDefaultAsync(m => m.ID == id);
+            Category = await _context.Categorys.FirstOrDefaultAsync(m => m.ID == id);
 
             if (Category == null)
             {
@@ -71,7 +71,7 @@ namespace NguyenTrongTruyen.Pages.Categorys
 
         private bool CategoryExists(int id)
         {
-            return _context.Category.Any(e => e.ID == id);
+            return _context.Categorys.Any(e => e.ID == id);
         }
     }
 }

@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.Newss
 {
     public class CreateModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.NewsContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public CreateModel(NguyenTrongTruyen.Data.NewsContext context)
+        public CreateModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -35,7 +35,7 @@ namespace NguyenTrongTruyen.Pages.Newss
                 return Page();
             }
 
-            _context.News.Add(News);
+            _context.Newss.Add(News);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

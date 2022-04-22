@@ -8,97 +8,97 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NguyenTrongTruyen
 build_property.RootNamespace = NguyenTrongTruyen
-build_property.ProjectDir = C:\Users\PDH\Desktop\NguyenTrongTruyen-20220422T062055Z-001\NguyenTrongTruyen\
+build_property.ProjectDir = C:\Users\PDH\Desktop\KT30%\NguyenTrongTruyen_KT30-Web\NguyenTrongTruyen\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PDH\Desktop\NguyenTrongTruyen-20220422T062055Z-001\NguyenTrongTruyen
+build_property.MSBuildProjectDirectory = C:\Users\PDH\Desktop\KT30%\NguyenTrongTruyen_KT30-Web\NguyenTrongTruyen
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Categorys/Create.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Categorys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Categorys/Delete.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Categorys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Categorys/Details.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Categorys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Categorys/Edit.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Categorys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Categorys/Index.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Categorys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/comments/Create.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/comments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/comments/Delete.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/comments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/comments/Details.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/comments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/comments/Edit.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/comments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/comments/Index.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/comments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Error.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Index.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Newss/Create.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Newss/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Newss/Delete.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Newss/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Newss/Details.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Newss/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Newss/Edit.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Newss/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Newss/Index.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Newss/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Privacy.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/_ViewImports.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/_ViewStart.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PDH/Desktop/NguyenTrongTruyen-20220422T062055Z-001/NguyenTrongTruyen/Pages/Shared/_Layout.cshtml]
+[C:/Users/PDH/Desktop/KT30%/NguyenTrongTruyen_KT30-Web/NguyenTrongTruyen/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hwr0s3rwx1

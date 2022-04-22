@@ -13,9 +13,9 @@ namespace NguyenTrongTruyen.Pages.Newss
 {
     public class EditModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.NewsContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public EditModel(NguyenTrongTruyen.Data.NewsContext context)
+        public EditModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -30,7 +30,7 @@ namespace NguyenTrongTruyen.Pages.Newss
                 return NotFound();
             }
 
-            News = await _context.News.FirstOrDefaultAsync(m => m.ID == id);
+            News = await _context.Newss.FirstOrDefaultAsync(m => m.ID == id);
 
             if (News == null)
             {
@@ -71,7 +71,7 @@ namespace NguyenTrongTruyen.Pages.Newss
 
         private bool NewsExists(int id)
         {
-            return _context.News.Any(e => e.ID == id);
+            return _context.Newss.Any(e => e.ID == id);
         }
     }
 }

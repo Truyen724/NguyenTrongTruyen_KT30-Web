@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.Categorys
 {
     public class DetailsModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.CategoryContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public DetailsModel(NguyenTrongTruyen.Data.CategoryContext context)
+        public DetailsModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace NguyenTrongTruyen.Pages.Categorys
                 return NotFound();
             }
 
-            Category = await _context.Category.FirstOrDefaultAsync(m => m.ID == id);
+            Category = await _context.Categorys.FirstOrDefaultAsync(m => m.ID == id);
 
             if (Category == null)
             {

@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.Newss
 {
     public class IndexModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.NewsContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public IndexModel(NguyenTrongTruyen.Data.NewsContext context)
+        public IndexModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -23,7 +23,8 @@ namespace NguyenTrongTruyen.Pages.Newss
 
         public async Task OnGetAsync()
         {
-            News = await _context.News.ToListAsync();
+            News = await _context.Newss.ToListAsync();
         }
+
     }
 }

@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.Newss
 {
     public class DetailsModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.NewsContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public DetailsModel(NguyenTrongTruyen.Data.NewsContext context)
+        public DetailsModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace NguyenTrongTruyen.Pages.Newss
                 return NotFound();
             }
 
-            News = await _context.News.FirstOrDefaultAsync(m => m.ID == id);
+            News = await _context.Newss.FirstOrDefaultAsync(m => m.ID == id);
 
             if (News == null)
             {

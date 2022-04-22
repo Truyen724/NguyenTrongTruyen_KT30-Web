@@ -13,9 +13,9 @@ namespace NguyenTrongTruyen.Pages.comments
 {
     public class EditModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.commentContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public EditModel(NguyenTrongTruyen.Data.commentContext context)
+        public EditModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -30,7 +30,7 @@ namespace NguyenTrongTruyen.Pages.comments
                 return NotFound();
             }
 
-            comment = await _context.comment.FirstOrDefaultAsync(m => m.ID == id);
+            comment = await _context.comments.FirstOrDefaultAsync(m => m.ID == id);
 
             if (comment == null)
             {
@@ -71,7 +71,7 @@ namespace NguyenTrongTruyen.Pages.comments
 
         private bool commentExists(int id)
         {
-            return _context.comment.Any(e => e.ID == id);
+            return _context.comments.Any(e => e.ID == id);
         }
     }
 }

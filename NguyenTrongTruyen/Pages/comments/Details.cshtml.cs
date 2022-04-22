@@ -12,9 +12,9 @@ namespace NguyenTrongTruyen.Pages.comments
 {
     public class DetailsModel : PageModel
     {
-        private readonly NguyenTrongTruyen.Data.commentContext _context;
+        private readonly NguyenTrongTruyen.Data.TintucContext _context;
 
-        public DetailsModel(NguyenTrongTruyen.Data.commentContext context)
+        public DetailsModel(NguyenTrongTruyen.Data.TintucContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace NguyenTrongTruyen.Pages.comments
                 return NotFound();
             }
 
-            comment = await _context.comment.FirstOrDefaultAsync(m => m.ID == id);
+            comment = await _context.comments.FirstOrDefaultAsync(m => m.ID == id);
 
             if (comment == null)
             {
