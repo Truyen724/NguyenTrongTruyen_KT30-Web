@@ -19,12 +19,13 @@
 @foreach (var item in Model.News) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+            <a asp-page="Newss/Details" asp-route-id="@item.ID" > @Html.DisplayFor(modelItem => item.Title)</a>
+                
             </td>
             
             <td>
                 
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> 
+                <a asp-page="Newss/Details" asp-route-id="@item.ID">Details</a>
                 
             </td>
         </tr>
